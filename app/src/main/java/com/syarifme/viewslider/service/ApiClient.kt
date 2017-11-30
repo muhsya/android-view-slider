@@ -17,14 +17,5 @@ class ApiClient {
 
             return retrofit
         }
-
-        fun getApiKey() : String {
-            val API_KEY = "2dc36de43709cd8544fea9537f938cea"
-            return API_KEY;
-        }
-
-        fun getBasePosterPath() : String {
-            return "https://image.tmdb.org/t/p/w500"
-        }
     }
 }
